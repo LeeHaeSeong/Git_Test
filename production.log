@@ -1,0 +1,629 @@
+Creating scope :system. Overwriting existing method Enumeration.system.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Class EasyActionSequenceInstanceCreatorJob is not rorys task so cannot be repeated
+Class EasyActionSequenceInstancePlannerJob is not rorys task so cannot be repeated
+Creating scope :sorted. Overwriting existing method Project.sorted.
+Creating scope :like. Overwriting existing method Project.like.
+Creating scope :visible. Overwriting existing method CustomField.visible.
+Creating scope :like. Overwriting existing method Issue.like.
+Creating scope :easy_to_repeat. Overwriting existing method EasyMeeting.easy_to_repeat.
+Started GET "/" for 192.168.1.79 at 2020-12-03 10:49:39 +0900
+Processing by MyController#page as HTML
+  Current user: anonymous
+Redirected to http://192.168.1.47/login?back_url=http%3A%2F%2F192.168.1.47%2F
+Filter chain halted as :check_if_login_required rendered or redirected
+Completed 302 Found in 101ms (ActiveRecord: 11.9ms)
+Started GET "/login?back_url=http%3A%2F%2F192.168.1.47%2F" for 192.168.1.79 at 2020-12-03 10:49:39 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"back_url"=>"http://192.168.1.47/"}
+  Current user: anonymous
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (15419.1ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (4.6ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (15517.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (22.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (104.7ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (19.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (388.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (36.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (2.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (70.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (10.4ms)
+Completed 200 OK in 16345ms (Views: 16216.5ms | ActiveRecord: 62.5ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 10:49:56 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 52ms (Views: 1.1ms | ActiveRecord: 7.9ms)
+Started POST "/login" for 192.168.1.79 at 2020-12-03 10:50:54 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QArwLbQaQNUEND905EiLLtXT0gf4w+rM9j7liK0WwSQveXL8QihFc8pDe97juVSO2pqVvndApTB9x210hpttgQ==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Failed login for 'admin' from 192.168.1.79 at 2020-12-03 01:50:54 UTC
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (0.4ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (2.6ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (10.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (3.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (6.0ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (14.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (43.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (6.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (3.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (4.1ms)
+Completed 200 OK in 144ms (Views: 83.7ms | ActiveRecord: 23.0ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 10:50:55 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 21ms (Views: 1.5ms | ActiveRecord: 4.2ms)
+Started POST "/login" for 192.168.1.79 at 2020-12-03 10:51:03 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DNj4gvkbfc4Tg8Dlyd2wifJFTILWDGgX4lQbfyWauMNjq3pTDyl4aN30hE/OLG8p/QwLO1mPJ+tprZODDhcUZg==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Failed login for 'admin' from 192.168.1.79 at 2020-12-03 01:51:03 UTC
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (0.4ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (2.6ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (12.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (3.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (5.6ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (7.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (38.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (5.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (3.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (4.9ms)
+Completed 200 OK in 112ms (Views: 82.4ms | ActiveRecord: 11.2ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 10:51:04 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 26ms (Views: 2.6ms | ActiveRecord: 9.4ms)
+Started POST "/login" for 192.168.1.79 at 2020-12-03 10:51:06 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cKKlapxzzfGOnfOoe3vHCbV09pkpFIHjkjLdYSrvFvAf0Se7akHIV0DqtwJ8ihipuj2xIKaXzh8Zy1WdAWK6VQ==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Failed login for 'admin' from 192.168.1.79 at 2020-12-03 01:51:06 UTC
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (0.4ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (3.2ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (13.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (2.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (5.9ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (11.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (1.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (40.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (5.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (4.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (3.8ms)
+Completed 200 OK in 117ms (Views: 83.1ms | ActiveRecord: 9.9ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 10:51:06 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 24ms (Views: 1.2ms | ActiveRecord: 3.7ms)
+Started POST "/login" for 192.168.1.79 at 2020-12-03 10:51:09 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m0DpfiNDFXAeap3xAu2R9iZ+gL1zzxuXTeXML0Iec0D0M2uv1XEQ1tAd2VsFHE5WKTfHBPxMVGvGHETTaZPf5Q==", "back_url"=>"/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Failed login for 'admin' from 192.168.1.79 at 2020-12-03 01:51:09 UTC
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (0.9ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (2.7ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (13.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (3.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (5.5ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (6.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (1.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (39.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (5.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (1.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (3.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (5.8ms)
+Completed 200 OK in 115ms (Views: 87.2ms | ActiveRecord: 10.9ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 10:51:09 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.4ms)
+Completed 200 OK in 18ms (Views: 1.5ms | ActiveRecord: 3.0ms)
+Started POST "/login" for 192.168.1.79 at 2020-12-03 10:51:53 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2zteXnzUwtItVa53ftsobWqFcwEhWyyG9iG29kq6Zl60SNyPiubHdOMi6t15KvfNZcw0uK7YY3p92D4KYTfK+w==", "back_url"=>"/", "username"=>"manager", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Successful authentication for 'manager' from 192.168.1.79 at 2020-12-03 01:51:53 UTC
+Redirected to http://192.168.1.47/
+Completed 302 Found in 175ms (ActiveRecord: 33.0ms)
+Started GET "/" for 192.168.1.79 at 2020-12-03 10:51:53 +0900
+Processing by MyController#page as HTML
+  Current user: manager (id=1)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/my/page.html.erb within layouts/easy_page_layouts/easy_page
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/my/page.html.erb within layouts/easy_page_layouts/easy_page (3.7ms)
+  Rendering plugins/easy_gantt/app/views/easy_gantt/gantt_legend.html.erb
+  Rendered plugins/easy_gantt/app/views/easy_gantt/gantt_legend.html.erb (16.2ms)
+  Rendered plugins/easy_gantt_pro/app/views/hooks/easy_gantt_pro/_view_easy_gantts_issues_toolbars.html.erb (6.8ms)
+  Rendered plugins/easy_gantt/app/views/easy_gantt/_menu_graph.html.erb (97.2ms)
+  Rendered plugins/easy_gantt/app/views/easy_gantt/_includes.html.erb (8.3ms)
+  Rendered plugins/easy_gantt/app/views/easy_gantt/_js_prepare.html.erb (58.9ms)
+  Rendered plugins/easy_gantt/app/views/easy_gantt/_gantt_js_prepare.html.erb (22.2ms)
+  Rendered plugins/easy_gantt_pro/app/views/easy_gantt_pro/_includes.html.erb (4.1ms)
+  Rendered plugins/easy_gantt_pro/app/views/easy_gantt_pro/_js_prepare.html.erb (42.7ms)
+  Rendered plugins/easy_gantt_pro/app/views/hooks/easy_gantt_pro/_view_easy_gantt_index_bottom.html.erb (97.8ms)
+  Rendered plugins/easy_gantt/app/views/easy_gantt/_index.html.erb (506.0ms)
+  Rendered plugins/easy_gantt_pro/app/views/easy_page_modules/projects/_easy_global_gantt_show.html.erb (532.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (571.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (767.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_easy_query_show.html.erb (25.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (69.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (164.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_empty_zone_content.html.erb (4.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_easy_query_show.html.erb (29.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (33.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (309.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_easy_query_show.html.erb (30.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (33.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (87.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_easy_query_show.html.erb (27.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (31.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (84.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_empty_zone_content.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_calendar_listing_links.html.erb (4.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/timelog/_timelog_calendar_show.html.erb (387.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (423.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (439.0ms)
+  Rendered plugins/easysoftware/gems/easy_calculoid/app/views/easy_calculoid/_trends_hide.html.erb (3.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/others/_trends_show.html.erb (37.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (71.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (77.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_empty_zone_content.html.erb (0.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (3.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (6.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/easy_meetings/_header_scripts.html.erb (4.7ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (31.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (3.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (150.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (6.1ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_audio_tag.html.erb (2.3ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_render_easy_instant_messages_box.html.erb (74.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (471.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_page_editable_tabs_inline_show.html.erb (14.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_page_editable_tabs.html.erb (56.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_easy_page_layout_before_main_show.html.erb (1.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_easy_page_layout_before_main.html.erb (37.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_tabs/_show_or_edit.html.erb (1.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/global_filters/_show_or_edit.html.erb (1.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/easy_page_layouts/_two_column_header_first_wider.html.erb (1.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (4.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (1.0ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (4.5ms)
+Completed 200 OK in 6887ms (Views: 2932.1ms | ActiveRecord: 287.1ms)
+Started GET "/easy_gantt/projects.json?column_names%5B%5D=name&column_names%5B%5D=priority&fields%5B%5D=project_id&key=9427acf710a7e94ccac253d4d5202f4df2eeb766&load_groups_opened=0&operators%5Bproject_id%5D=%21&outputs%5B%5D=list&set_filter=1&show_avatars=0&show_sum_row=0&sort=lft&type=EasyGanttEasyProjectQuery&values%5Bproject_id%5D%5B%5D=49&values%5Bproject_id%5D%5B%5D=50&values%5Bproject_id%5D%5B%5D=48&values%5Bproject_id%5D%5B%5D=98" for 192.168.1.79 at 2020-12-03 10:52:01 +0900
+Processing by EasyGanttController#projects as JSON
+  Parameters: {"column_names"=>["name", "priority"], "fields"=>["project_id"], "key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766", "load_groups_opened"=>"0", "operators"=>{"project_id"=>"!"}, "outputs"=>["list"], "set_filter"=>"1", "show_avatars"=>"0", "show_sum_row"=>"0", "sort"=>"lft", "type"=>"EasyGanttEasyProjectQuery", "values"=>{"project_id"=>["49", "50", "48", "98"]}}
+  Current user: manager (id=1)
+  Rendering plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb
+  Rendered plugins/easy_gantt/app/views/easy_gantt/projects.api.rsb (19.6ms)
+Completed 200 OK in 425ms (Views: 21.9ms | ActiveRecord: 84.7ms)
+Started POST "/easy_services/load_backgrounds.json" for 192.168.1.79 at 2020-12-03 10:52:01 +0900
+Processing by EasyServicesController#load_backgrounds as JSON
+  Parameters: {"services"=>["easy_activity", "easy_issue_timer", "easy_broadcast", "easy_page_user_tabs", "easy_instant_messages"]}
+  Current user: manager (id=1)
+No Xapian search engine interface for Ruby installed => Full-text search won't be available.
+                      Install a ruby-xapian package or an alternative Xapian binding (https://xapian.org).
+cannot load such file -- xapian
+Completed 200 OK in 2412ms (Views: 0.4ms | ActiveRecord: 362.8ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:53:11 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (8.2ms)
+Completed 200 OK in 62ms (Views: 10.6ms | ActiveRecord: 2.6ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:54:21 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (1.5ms)
+Completed 200 OK in 20ms (Views: 4.9ms | ActiveRecord: 2.0ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:55:31 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (4.5ms)
+Completed 200 OK in 27ms (Views: 5.6ms | ActiveRecord: 4.2ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:56:41 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (3.9ms)
+Completed 200 OK in 22ms (Views: 4.9ms | ActiveRecord: 3.5ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:57:51 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (2.0ms)
+Completed 200 OK in 20ms (Views: 3.0ms | ActiveRecord: 2.4ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 10:59:01 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (1.5ms)
+Completed 200 OK in 23ms (Views: 2.5ms | ActiveRecord: 3.2ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:00:12 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (4.6ms)
+Completed 200 OK in 28ms (Views: 6.0ms | ActiveRecord: 4.0ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:01:22 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (1.6ms)
+Completed 200 OK in 15ms (Views: 2.2ms | ActiveRecord: 2.0ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:02:32 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (2.2ms)
+Completed 200 OK in 20ms (Views: 3.7ms | ActiveRecord: 2.8ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:03:42 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (3.6ms)
+Completed 200 OK in 16ms (Views: 4.3ms | ActiveRecord: 2.8ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:04:52 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (2.4ms)
+Completed 200 OK in 22ms (Views: 4.1ms | ActiveRecord: 3.1ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:06:02 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (2.7ms)
+Completed 200 OK in 20ms (Views: 3.3ms | ActiveRecord: 3.1ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:07:12 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (2.4ms)
+Completed 200 OK in 21ms (Views: 3.4ms | ActiveRecord: 3.3ms)
+Started GET "/easy_instant_messages.json?key=9427acf710a7e94ccac253d4d5202f4df2eeb766" for 192.168.1.79 at 2020-12-03 11:08:22 +0900
+Processing by EasyInstantMessagesController#index as JSON
+  Parameters: {"key"=>"9427acf710a7e94ccac253d4d5202f4df2eeb766"}
+  Current user: manager (id=1)
+  Rendering plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/index.api.rsb (3.2ms)
+Completed 200 OK in 20ms (Views: 3.8ms | ActiveRecord: 2.8ms)
+Started GET "/users" for 192.168.1.79 at 2020-12-03 11:08:52 +0900
+Processing by UsersController#index as HTML
+  Current user: manager (id=1)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/users/index.html.erb within layouts/admin
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_format_options_dialog.html.erb (24.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_format_options_dialog.html.erb (7.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_format_options_dialog.html.erb (6.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_freetext_quick_search.html.erb (16.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_filters.html.erb (15.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_columns.html.erb (31.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_settings_criteria.html.erb (8.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_form_list_settings.html.erb (142.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_form_tiles_settings.html.erb (4.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_form_chart_settings.html.erb (134.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query_export_format_links.html.erb (42.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query_index_form.html.erb (807.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query_index.html.erb (882.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query_entities.html.erb (11.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query_entities_list.html.erb (404.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_queries/_easy_query.html.erb (1543.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.3/gems/redmine_extensions-0.3.11/app/views/common/_collapsible_module_layout.html.erb (3.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/sidebar/_saved_easyqueries_by_type.html.erb (59.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_new_user_button.html.erb (3.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/index.html.erb within layouts/admin (1772.5ms)
+  Rendered plugins/easysoftware/gems/search_in_administration/app/views/easy_administration_search/_administration_search_links.html.erb (3.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/admin/_menu.html.erb (112.9ms)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (2.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (6.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/easy_meetings/_header_scripts.html.erb (1.1ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (3.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (47.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (3.6ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_audio_tag.html.erb (0.3ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_render_easy_instant_messages_box.html.erb (8.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (96.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (3.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (1.2ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (5.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb (175.5ms)
+Completed 200 OK in 2386ms (Views: 2132.4ms | ActiveRecord: 78.2ms)
+Started POST "/easy_services/load_backgrounds.json" for 192.168.1.79 at 2020-12-03 11:08:55 +0900
+Processing by EasyServicesController#load_backgrounds as JSON
+  Parameters: {"services"=>["easy_activity", "easy_issue_timer", "easy_broadcast", "easy_page_user_tabs", "easy_instant_messages"]}
+  Current user: manager (id=1)
+Completed 200 OK in 109ms (Views: 0.7ms | ActiveRecord: 17.4ms)
+Started POST "/easy_queries/filter_values" for 192.168.1.79 at 2020-12-03 11:08:55 +0900
+Processing by EasyQueriesController#filter_values as JSON
+  Parameters: {"set_filter"=>"1", "type"=>"EasyUserQuery", "fields"=>["status"], "operators"=>{"status"=>"="}, "values"=>{"status"=>["1"]}, "outputs"=>["list"], "load_groups_opened"=>"0", "show_sum_row"=>"0", "sort"=>"login", "show_avatars"=>"0", "modul_uniq_id"=>"", "block_name"=>"", "filter_name"=>["status"]}
+  Current user: manager (id=1)
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 13.0ms)
+Started GET "/users/new" for 192.168.1.79 at 2020-12-03 11:08:57 +0900
+Processing by UsersController#new as HTML
+  Current user: manager (id=1)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/users/new.html.erb within layouts/admin
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_additional_fields.html.erb (99.8ms)
+  Rendered plugins/easysoftware/gems/easy_twofa/app/views/my/easy_twofa/_view_users_form.html.erb (27.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_theme_designer/app/views/hooks/_theme_selector.html.erb (1.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_mail_notifications.html.erb (41.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_easy_extensions_view_easy_mail_signature.html.erb (53.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_preferences.html.erb (787.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendar_nested_fields.html.erb (419.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendar_fields.html.erb (451.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendars.html.erb (592.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_other_settings.html.erb (2.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_form.html.erb (2062.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/new.html.erb within layouts/admin (2098.6ms)
+  Rendered plugins/easysoftware/gems/search_in_administration/app/views/easy_administration_search/_administration_search_links.html.erb (3.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/admin/_menu.html.erb (329.3ms)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (8.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (13.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/easy_meetings/_header_scripts.html.erb (2.7ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (19.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (89.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (4.0ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_audio_tag.html.erb (0.5ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_render_easy_instant_messages_box.html.erb (11.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (159.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (4.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (1.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (4.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb (296.0ms)
+Completed 200 OK in 2770ms (Views: 2664.4ms | ActiveRecord: 71.6ms)
+Started POST "/easy_services/load_backgrounds.json" for 192.168.1.79 at 2020-12-03 11:09:00 +0900
+Processing by EasyServicesController#load_backgrounds as JSON
+  Parameters: {"services"=>["easy_activity", "easy_issue_timer", "easy_broadcast", "easy_page_user_tabs", "easy_instant_messages"]}
+  Current user: manager (id=1)
+Completed 200 OK in 207ms (Views: 0.9ms | ActiveRecord: 34.8ms)
+Started GET "/easy_taggables/autocomplete.json" for 192.168.1.79 at 2020-12-03 11:09:00 +0900
+Processing by EasyTaggablesController#autocomplete as JSON
+  Current user: manager (id=1)
+Completed 200 OK in 77ms (Views: 0.7ms | ActiveRecord: 22.5ms)
+Started GET "/easy_assets/typography.css" for 192.168.1.79 at 2020-12-03 11:09:01 +0900
+Processing by EasyAssetsController#typography as CSS
+  Current user: manager (id=1)
+Sent file /home/redmine/easy/plugins/easyproject/easy_plugins/easy_redmine/assets/stylesheets/typography.css (0.7ms)
+Completed 200 OK in 51ms (ActiveRecord: 26.4ms)
+Started POST "/users" for 192.168.1.79 at 2020-12-03 11:09:17 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q8lJ/LjRsozt+PlYB9oIq7ovOq9Wbe0zz/IDI/lsgyB7TxYu4zI9iFUrapwZ5rBz4kAD29USIofX4fRH9chc5A==", "user"=>{"login"=>"lhs", "firstname"=>"lhs", "lastname"=>"lhs", "mail"=>"lhs@lhs.co.kr", "language"=>"en", "easy_user_type_id"=>"1", "apply_default_page_template"=>"0", "tag_list"=>[""], "easy_system_flag"=>"0", "admin"=>"0", "easy_lesser_admin"=>"0", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "generate_password"=>"[FILTERED]", "must_change_passwd"=>"0", "mail_notification"=>"only_my_events", "notified_project_ids"=>[""], "easy_mail_signature"=>""}, "page_template_id"=>"", "pref"=>{"no_self_notified"=>"1", "no_notified_if_issue_closing"=>"0", "no_notified_as_previous_assignee"=>"0", "no_notification_ever"=>"0", "hours_format"=>"short", "user_time_entry_setting"=>"hours", "number_alignment"=>"0", "hide_mail"=>"1", "time_zone"=>"", "comments_sorting"=>"asc", "hide_notification_passwd_expiration"=>"0", "disable_automatic_loading"=>"0", "global_time_entries_visibility"=>"0", "warn_on_leaving_unsaved"=>"1", "textarea_font"=>""}, "tab"=>"external_calendars", "copy_roles_from"=>"", "commit"=>"Save"}
+  Current user: manager (id=1)
+Redirected to http://192.168.1.47/users/6/edit
+Completed 302 Found in 2222ms (ActiveRecord: 1189.1ms)
+Started GET "/users/6/edit" for 192.168.1.79 at 2020-12-03 11:09:20 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Current user: manager (id=1)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/users/edit.html.erb within layouts/admin
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_additional_fields.html.erb (33.4ms)
+  Rendered plugins/easysoftware/gems/easy_twofa/app/views/my/easy_twofa/_view_users_form.html.erb (5.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_theme_designer/app/views/hooks/_theme_selector.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_mail_notifications.html.erb (733.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_easy_extensions_view_easy_mail_signature.html.erb (103.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_user_rss_key.html.erb (2.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_user_api_key.html.erb (3.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_preferences.html.erb (214.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendar_nested_fields.html.erb (5.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendar_fields.html.erb (7.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/external_calendars/_easy_icalendars.html.erb (13.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_other_settings.html.erb (0.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_form.html.erb (1265.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_general.html.erb (1272.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_tabs.html.erb (1379.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/_new_user_button.html.erb (1.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/users/edit.html.erb within layouts/admin (1465.5ms)
+  Rendered plugins/easysoftware/gems/search_in_administration/app/views/easy_administration_search/_administration_search_links.html.erb (2.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/admin/_menu.html.erb (180.4ms)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (15.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (29.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_calendar/app/views/easy_meetings/_header_scripts.html.erb (1.4ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (3.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (65.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (14.5ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_audio_tag.html.erb (0.4ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_render_easy_instant_messages_box.html.erb (7.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (147.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (16.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (14.8ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/base.html.erb (273.0ms)
+Completed 200 OK in 2124ms (Views: 1761.1ms | ActiveRecord: 212.5ms)
+Started POST "/easy_services/load_backgrounds.json" for 192.168.1.79 at 2020-12-03 11:09:22 +0900
+Processing by EasyServicesController#load_backgrounds as JSON
+  Parameters: {"services"=>["easy_activity", "easy_issue_timer", "easy_broadcast", "easy_page_user_tabs", "easy_instant_messages"]}
+  Current user: manager (id=1)
+Completed 200 OK in 285ms (Views: 0.5ms | ActiveRecord: 118.0ms)
+Started GET "/easy_taggables/autocomplete.json" for 192.168.1.79 at 2020-12-03 11:09:23 +0900
+Processing by EasyTaggablesController#autocomplete as JSON
+  Current user: manager (id=1)
+Completed 200 OK in 38ms (Views: 0.5ms | ActiveRecord: 14.2ms)
+Started GET "/easy_assets/typography.css" for 192.168.1.79 at 2020-12-03 11:09:23 +0900
+Processing by EasyAssetsController#typography as CSS
+  Current user: manager (id=1)
+Sent file /home/redmine/easy/plugins/easyproject/easy_plugins/easy_redmine/assets/stylesheets/typography.css (0.4ms)
+Completed 200 OK in 35ms (ActiveRecord: 18.3ms)
+Creating scope :system. Overwriting existing method Enumeration.system.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Class EasyActionSequenceInstanceCreatorJob is not rorys task so cannot be repeated
+Class EasyActionSequenceInstancePlannerJob is not rorys task so cannot be repeated
+Started GET "/" for 192.168.1.79 at 2020-12-03 11:09:50 +0900
+Processing by MyController#page as HTML
+  Current user: anonymous
+Redirected to http://192.168.1.47/login?back_url=http%3A%2F%2F192.168.1.47%2F
+Filter chain halted as :check_if_login_required rendered or redirected
+Completed 302 Found in 52ms (ActiveRecord: 17.7ms)
+Started GET "/login?back_url=http%3A%2F%2F192.168.1.47%2F" for 192.168.1.79 at 2020-12-03 11:09:50 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"back_url"=>"http://192.168.1.47/"}
+  Current user: anonymous
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/_unsupported_browser.html.erb (0.5ms)
+  Rendered plugins/easysoftware/gems/easy_oauth2/app/views/easy_sso/easy_oauth2/_view_account_login_after_submit.html.erb (14.1ms)
+  Rendered plugins/easysoftware/gems/easy_sso-saml_server/app/views/account/easy_sso_saml_server/_view_account_login_after_submit.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/account/login.html.erb within layouts/base (25.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (14.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (17.8ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (37.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (91.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (21.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (4.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (4.2ms)
+Completed 200 OK in 273ms (Views: 186.7ms | ActiveRecord: 57.9ms)
+Started GET "/quotes.text" for 192.168.1.79 at 2020-12-03 11:09:52 +0900
+Processing by AccountController#quotes as TEXT
+  Current user: anonymous
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 119ms (Views: 1.0ms | ActiveRecord: 21.0ms)
+Creating scope :sorted. Overwriting existing method Project.sorted.
+Creating scope :like. Overwriting existing method Project.like.
+Creating scope :visible. Overwriting existing method CustomField.visible.
+Creating scope :like. Overwriting existing method Issue.like.
+Started POST "/login" for 192.168.1.79 at 2020-12-03 11:09:55 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jrqqxP1bIJXEKGeuL5CbqFai1+xgdcGQuH726p1ZXO8e+wEZe8IIOSE1bAj3/0VevApRMJvoTq4CFWUO2PdZdg==", "back_url"=>"/", "username"=>"lhs", "password"=>"[FILTERED]", "login"=>""}
+  Current user: anonymous
+Creating scope :easy_to_repeat. Overwriting existing method EasyMeeting.easy_to_repeat.
+Successful authentication for 'lhs' from 192.168.1.79 at 2020-12-03 02:09:56 UTC
+Redirected to http://192.168.1.47/
+Completed 302 Found in 545ms (ActiveRecord: 94.4ms)
+Started GET "/" for 192.168.1.79 at 2020-12-03 11:09:56 +0900
+Processing by MyController#page as HTML
+  Current user: lhs (id=6)
+  Rendering plugins/easyproject/easy_plugins/easy_extensions/app/views/my/page.html.erb within layouts/easy_page_layouts/easy_page
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/my/page.html.erb within layouts/easy_page_layouts/easy_page (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/_calendar_listing_links.html.erb (1.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/timelog/_timelog_calendar_show.html.erb (208.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (233.9ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (238.5ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_empty_zone_content.html.erb (0.4ms)
+  Rendered plugins/easysoftware/gems/easy_calculoid/app/views/easy_calculoid/_trends_hide.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/others/_trends_show.html.erb (11.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (12.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (15.4ms)
+  Rendered plugins/easysoftware/gems/easy_calculoid/app/views/easy_calculoid/_trends_hide.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_modules/others/_trends_show.html.erb (31.7ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show.html.erb (34.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_page_module_show_container.html.erb (37.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_empty_zone_content.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/easy_redmine/_view_layouts_base_html_head_top.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/application/_favicon_branded.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/application/_favicon.html.erb (16.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_redmine/app/views/layouts/_brand_html_header.html.erb (30.5ms)
+  Rendered plugins/easy_zoom/app/views/hooks/_easy_zoom_header_scripts.html.erb (1.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_module_urls.html.erb (0.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_html_header.html.erb (1535.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_servicebar.html.erb (2.1ms)
+  Rendered plugins/easy_instant_messages/app/views/easy_instant_messages/_render_easy_instant_messages_box.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_header.html.erb (191.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_easy_project_header.html.erb (0.3ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_page_editable_tabs_inline_show.html.erb (41.0ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/common/_easy_page_editable_tabs.html.erb (43.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_easy_page_layout_before_main_show.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_layout/_easy_page_layout_before_main.html.erb (2.6ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/easy_page_tabs/_show_or_edit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/global_filters/_show_or_edit.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/easy_page_layouts/_two_column_header_first_wider.html.erb (0.2ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_base_body_footer_wrapper.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_plugins/easy_extensions/app/views/layouts/_layouts_base_body_bottom.html.erb (15.4ms)
+  Rendered plugins/easyproject/easy_plugins/easy_to_do_list/app/views/easy_to_do_lists/_view_layouts_base_body_bottom.html.erb (0.1ms)
+  Rendered plugins/easyproject/easy_helpers/clipboard_image_paste/app/views/clipboard_image_paste/_add_form.html.erb (10.7ms)
+Completed 200 OK in 4371ms (Views: 2028.4ms | ActiveRecord: 443.7ms)
+Started POST "/easy_services/load_backgrounds.json" for 192.168.1.79 at 2020-12-03 11:10:01 +0900
+Processing by EasyServicesController#load_backgrounds as JSON
+  Parameters: {"services"=>["easy_issue_timer", "easy_page_user_tabs"]}
+  Current user: lhs (id=6)
+Completed 200 OK in 102ms (Views: 0.5ms | ActiveRecord: 52.2ms)
