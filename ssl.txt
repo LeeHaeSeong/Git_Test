@@ -1,0 +1,30 @@
+server {
+        listen       80;
+        server_name  localhost;
+		
+	location / {
+   	    return 301 https://14.51.63.144$request_uri;
+	}
+
+        client_max_body_size      10m; # Max attachemnt size
+
+        # redirect server error pages to the static page /50x.html
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+	
+server {
+		listen       443 ssl;
+        server_name  localhost;
+		
+		ssl on;
+		ssl_certificate /etc/pki/tls/certs/gsk.crt;
+		ssl_certificate_key /etc/pki/tls/private/gsk.key;
+		
+	location / {
+   	     root /home/redmine/easy/public;
+  	     passenger_enabled on;
+	}
+}
