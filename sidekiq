@@ -1,0 +1,18 @@
+[Unit]
+Description=SIDEKIQ service
+After=redis.service
+
+[Service]
+Type=simple
+PIDFile=/home/redmine/sidekiq.pid
+
+Environment=RAILS_ENV=production
+
+User=redmine
+WorkingDirectory=/home/redmine/easy
+
+ExecStart=/usr/local/rvm/bin/rvm default do bundle exec sidekiq -C config/sidekiq.yml -e production
+ExecReload=/bin/kill -s TSTP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
